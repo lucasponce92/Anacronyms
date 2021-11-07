@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ActivityIndicatorView",
+        "repositoryURL": "https://github.com/exyte/ActivityIndicatorView",
+        "state": {
+          "branch": null,
+          "revision": "9ddf7c4290ed79d6d09a58fb644a3cc2ff751542",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "AlertToast",
+        "repositoryURL": "https://github.com/elai950/AlertToast.git",
+        "state": {
+          "branch": null,
+          "revision": "a4f4267f6454259ba4ed8f9dadb87334a789c26c",
+          "version": "1.3.7"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

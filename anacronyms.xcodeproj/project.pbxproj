@@ -3,16 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A095AB072736E19600DD0022 /* anacronysmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB062736E19600DD0022 /* anacronysmApp.swift */; };
-		A095AB092736E19600DD0022 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB082736E19600DD0022 /* ContentView.swift */; };
 		A095AB0B2736E19800DD0022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A095AB0A2736E19800DD0022 /* Assets.xcassets */; };
 		A095AB0E2736E19800DD0022 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A095AB0D2736E19800DD0022 /* Preview Assets.xcassets */; };
 		A095AB192736E19900DD0022 /* anacronysmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB182736E19900DD0022 /* anacronysmTests.swift */; };
-		A095AB242736E19900DD0022 /* anacronysmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB232736E19900DD0022 /* anacronysmUITests.swift */; };
+		A095AB382736E4AD00DD0022 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB372736E4AD00DD0022 /* HomeView.swift */; };
+		A095AB3A2736E81900DD0022 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB392736E81900DD0022 /* Extensions.swift */; };
+		A095AB3C2736EA6100DD0022 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB3B2736EA6100DD0022 /* CustomTextField.swift */; };
+		A095AB402736FE4300DD0022 /* AnacronymVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB3F2736FE4300DD0022 /* AnacronymVM.swift */; };
+		A095AB442736FF1500DD0022 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB432736FF1500DD0022 /* ResultsView.swift */; };
+		A095AB47273748CD00DD0022 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = A095AB46273748CD00DD0022 /* ActivityIndicatorView */; };
+		A095AB4B27374AAA00DD0022 /* LongForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB4A27374AAA00DD0022 /* LongForm.swift */; };
+		A095AB4D27374DED00DD0022 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB4C27374DED00DD0022 /* Endpoints.swift */; };
+		A095AB4F27374E7D00DD0022 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB4E27374E7D00DD0022 /* Webservice.swift */; };
+		A095AB5127374EC800DD0022 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB5027374EC800DD0022 /* HttpMethod.swift */; };
+		A095AB5327374ED200DD0022 /* HttpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB5227374ED200DD0022 /* HttpStatus.swift */; };
+		A095AB55273772E400DD0022 /* LFCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB54273772E400DD0022 /* LFCardView.swift */; };
+		A095AB572737817400DD0022 /* LFCardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095AB562737817400DD0022 /* LFCardVM.swift */; };
+		A0CBF128273857A40088AC7D /* VariantCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF127273857A40088AC7D /* VariantCardView.swift */; };
+		A0CBF12A273858B50088AC7D /* VariantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF129273858B50088AC7D /* VariantsView.swift */; };
+		A0CBF12D273868420088AC7D /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = A0CBF12C273868420088AC7D /* AlertToast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,28 +37,31 @@
 			remoteGlobalIDString = A095AB022736E19600DD0022;
 			remoteInfo = anacronysm;
 		};
-		A095AB202736E19900DD0022 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A095AAFB2736E19600DD0022 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A095AB022736E19600DD0022;
-			remoteInfo = anacronysm;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A095AB032736E19600DD0022 /* anacronysm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anacronysm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A095AB032736E19600DD0022 /* anacronyms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anacronyms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A095AB062736E19600DD0022 /* anacronysmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anacronysmApp.swift; sourceTree = "<group>"; };
-		A095AB082736E19600DD0022 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A095AB0A2736E19800DD0022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A095AB0D2736E19800DD0022 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A095AB0F2736E19800DD0022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A095AB142736E19900DD0022 /* anacronysmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anacronysmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A095AB142736E19900DD0022 /* anacronymsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anacronymsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A095AB182736E19900DD0022 /* anacronysmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anacronysmTests.swift; sourceTree = "<group>"; };
 		A095AB1A2736E19900DD0022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A095AB1F2736E19900DD0022 /* anacronysmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anacronysmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A095AB232736E19900DD0022 /* anacronysmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anacronysmUITests.swift; sourceTree = "<group>"; };
-		A095AB252736E19900DD0022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A095AB372736E4AD00DD0022 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A095AB392736E81900DD0022 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A095AB3B2736EA6100DD0022 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A095AB3F2736FE4300DD0022 /* AnacronymVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnacronymVM.swift; sourceTree = "<group>"; };
+		A095AB432736FF1500DD0022 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		A095AB4A27374AAA00DD0022 /* LongForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongForm.swift; sourceTree = "<group>"; };
+		A095AB4C27374DED00DD0022 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		A095AB4E27374E7D00DD0022 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		A095AB5027374EC800DD0022 /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		A095AB5227374ED200DD0022 /* HttpStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpStatus.swift; sourceTree = "<group>"; };
+		A095AB54273772E400DD0022 /* LFCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCardView.swift; sourceTree = "<group>"; };
+		A095AB562737817400DD0022 /* LFCardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCardVM.swift; sourceTree = "<group>"; };
+		A0CBF127273857A40088AC7D /* VariantCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantCardView.swift; sourceTree = "<group>"; };
+		A0CBF129273858B50088AC7D /* VariantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +69,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A095AB47273748CD00DD0022 /* ActivityIndicatorView in Frameworks */,
+				A0CBF12D273868420088AC7D /* AlertToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A095AB112736E19900DD0022 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A095AB1C2736E19900DD0022 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,7 +89,6 @@
 			children = (
 				A095AB052736E19600DD0022 /* anacronysm */,
 				A095AB172736E19900DD0022 /* anacronysmTests */,
-				A095AB222736E19900DD0022 /* anacronysmUITests */,
 				A095AB042736E19600DD0022 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +96,8 @@
 		A095AB042736E19600DD0022 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A095AB032736E19600DD0022 /* anacronysm.app */,
-				A095AB142736E19900DD0022 /* anacronysmTests.xctest */,
-				A095AB1F2736E19900DD0022 /* anacronysmUITests.xctest */,
+				A095AB032736E19600DD0022 /* anacronyms.app */,
+				A095AB142736E19900DD0022 /* anacronymsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,10 +105,11 @@
 		A095AB052736E19600DD0022 /* anacronysm */ = {
 			isa = PBXGroup;
 			children = (
-				A095AB062736E19600DD0022 /* anacronysmApp.swift */,
-				A095AB082736E19600DD0022 /* ContentView.swift */,
-				A095AB0A2736E19800DD0022 /* Assets.xcassets */,
 				A095AB0F2736E19800DD0022 /* Info.plist */,
+				A095AB312736E3CB00DD0022 /* Supporting Files */,
+				A095AB352736E40800DD0022 /* Model */,
+				A095AB332736E3EB00DD0022 /* View */,
+				A095AB342736E3FB00DD0022 /* ViewModel */,
 				A095AB0C2736E19800DD0022 /* Preview Content */,
 			);
 			path = anacronysm;
@@ -121,21 +132,56 @@
 			path = anacronysmTests;
 			sourceTree = "<group>";
 		};
-		A095AB222736E19900DD0022 /* anacronysmUITests */ = {
+		A095AB312736E3CB00DD0022 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A095AB232736E19900DD0022 /* anacronysmUITests.swift */,
-				A095AB252736E19900DD0022 /* Info.plist */,
+				A095AB0A2736E19800DD0022 /* Assets.xcassets */,
+				A095AB062736E19600DD0022 /* anacronysmApp.swift */,
+				A095AB392736E81900DD0022 /* Extensions.swift */,
+				A095AB4C27374DED00DD0022 /* Endpoints.swift */,
+				A095AB4E27374E7D00DD0022 /* Webservice.swift */,
+				A095AB5027374EC800DD0022 /* HttpMethod.swift */,
+				A095AB5227374ED200DD0022 /* HttpStatus.swift */,
 			);
-			path = anacronysmUITests;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A095AB332736E3EB00DD0022 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A095AB3B2736EA6100DD0022 /* CustomTextField.swift */,
+				A095AB372736E4AD00DD0022 /* HomeView.swift */,
+				A095AB432736FF1500DD0022 /* ResultsView.swift */,
+				A095AB54273772E400DD0022 /* LFCardView.swift */,
+				A0CBF129273858B50088AC7D /* VariantsView.swift */,
+				A0CBF127273857A40088AC7D /* VariantCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A095AB342736E3FB00DD0022 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A095AB3F2736FE4300DD0022 /* AnacronymVM.swift */,
+				A095AB562737817400DD0022 /* LFCardVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A095AB352736E40800DD0022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A095AB4A27374AAA00DD0022 /* LongForm.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A095AB022736E19600DD0022 /* anacronysm */ = {
+		A095AB022736E19600DD0022 /* anacronyms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A095AB282736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronysm" */;
+			buildConfigurationList = A095AB282736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronyms" */;
 			buildPhases = (
 				A095AAFF2736E19600DD0022 /* Sources */,
 				A095AB002736E19600DD0022 /* Frameworks */,
@@ -145,14 +191,18 @@
 			);
 			dependencies = (
 			);
-			name = anacronysm;
+			name = anacronyms;
+			packageProductDependencies = (
+				A095AB46273748CD00DD0022 /* ActivityIndicatorView */,
+				A0CBF12C273868420088AC7D /* AlertToast */,
+			);
 			productName = anacronysm;
-			productReference = A095AB032736E19600DD0022 /* anacronysm.app */;
+			productReference = A095AB032736E19600DD0022 /* anacronyms.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A095AB132736E19900DD0022 /* anacronysmTests */ = {
+		A095AB132736E19900DD0022 /* anacronymsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A095AB2B2736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronysmTests" */;
+			buildConfigurationList = A095AB2B2736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronymsTests" */;
 			buildPhases = (
 				A095AB102736E19900DD0022 /* Sources */,
 				A095AB112736E19900DD0022 /* Frameworks */,
@@ -163,28 +213,10 @@
 			dependencies = (
 				A095AB162736E19900DD0022 /* PBXTargetDependency */,
 			);
-			name = anacronysmTests;
+			name = anacronymsTests;
 			productName = anacronysmTests;
-			productReference = A095AB142736E19900DD0022 /* anacronysmTests.xctest */;
+			productReference = A095AB142736E19900DD0022 /* anacronymsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A095AB1E2736E19900DD0022 /* anacronysmUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A095AB2E2736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronysmUITests" */;
-			buildPhases = (
-				A095AB1B2736E19900DD0022 /* Sources */,
-				A095AB1C2736E19900DD0022 /* Frameworks */,
-				A095AB1D2736E19900DD0022 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A095AB212736E19900DD0022 /* PBXTargetDependency */,
-			);
-			name = anacronysmUITests;
-			productName = anacronysmUITests;
-			productReference = A095AB1F2736E19900DD0022 /* anacronysmUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,13 +234,9 @@
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = A095AB022736E19600DD0022;
 					};
-					A095AB1E2736E19900DD0022 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = A095AB022736E19600DD0022;
-					};
 				};
 			};
-			buildConfigurationList = A095AAFE2736E19600DD0022 /* Build configuration list for PBXProject "anacronysm" */;
+			buildConfigurationList = A095AAFE2736E19600DD0022 /* Build configuration list for PBXProject "anacronyms" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,13 +245,16 @@
 				Base,
 			);
 			mainGroup = A095AAFA2736E19600DD0022;
+			packageReferences = (
+				A095AB45273748CD00DD0022 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+				A0CBF12B273868420088AC7D /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
 			productRefGroup = A095AB042736E19600DD0022 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A095AB022736E19600DD0022 /* anacronysm */,
-				A095AB132736E19900DD0022 /* anacronysmTests */,
-				A095AB1E2736E19900DD0022 /* anacronysmUITests */,
+				A095AB022736E19600DD0022 /* anacronyms */,
+				A095AB132736E19900DD0022 /* anacronymsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +276,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A095AB1D2736E19900DD0022 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +283,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A095AB092736E19600DD0022 /* ContentView.swift in Sources */,
+				A0CBF128273857A40088AC7D /* VariantCardView.swift in Sources */,
+				A095AB3C2736EA6100DD0022 /* CustomTextField.swift in Sources */,
+				A095AB442736FF1500DD0022 /* ResultsView.swift in Sources */,
+				A0CBF12A273858B50088AC7D /* VariantsView.swift in Sources */,
+				A095AB402736FE4300DD0022 /* AnacronymVM.swift in Sources */,
+				A095AB55273772E400DD0022 /* LFCardView.swift in Sources */,
+				A095AB382736E4AD00DD0022 /* HomeView.swift in Sources */,
+				A095AB5127374EC800DD0022 /* HttpMethod.swift in Sources */,
+				A095AB3A2736E81900DD0022 /* Extensions.swift in Sources */,
 				A095AB072736E19600DD0022 /* anacronysmApp.swift in Sources */,
+				A095AB4D27374DED00DD0022 /* Endpoints.swift in Sources */,
+				A095AB572737817400DD0022 /* LFCardVM.swift in Sources */,
+				A095AB4F27374E7D00DD0022 /* Webservice.swift in Sources */,
+				A095AB4B27374AAA00DD0022 /* LongForm.swift in Sources */,
+				A095AB5327374ED200DD0022 /* HttpStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,26 +309,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A095AB1B2736E19900DD0022 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A095AB242736E19900DD0022 /* anacronysmUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		A095AB162736E19900DD0022 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A095AB022736E19600DD0022 /* anacronysm */;
+			target = A095AB022736E19600DD0022 /* anacronyms */;
 			targetProxy = A095AB152736E19900DD0022 /* PBXContainerItemProxy */;
-		};
-		A095AB212736E19900DD0022 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A095AB022736E19600DD0022 /* anacronysm */;
-			targetProxy = A095AB202736E19900DD0022 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -427,7 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cl.mpsoluciones.anacronysm;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mpsoluciones.anacronyms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +473,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cl.mpsoluciones.anacronysm;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mpsoluciones.anacronyms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anacronysm.app/anacronysm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anacronyms.app/anacronyms";
 			};
 			name = Debug;
 		};
@@ -496,54 +520,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anacronysm.app/anacronysm";
-			};
-			name = Release;
-		};
-		A095AB2F2736E19900DD0022 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZMR88Z3RES;
-				INFOPLIST_FILE = anacronysmUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cl.mpsoluciones.anacronysmUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = anacronysm;
-			};
-			name = Debug;
-		};
-		A095AB302736E19900DD0022 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZMR88Z3RES;
-				INFOPLIST_FILE = anacronysmUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cl.mpsoluciones.anacronysmUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = anacronysm;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anacronyms.app/anacronyms";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A095AAFE2736E19600DD0022 /* Build configuration list for PBXProject "anacronysm" */ = {
+		A095AAFE2736E19600DD0022 /* Build configuration list for PBXProject "anacronyms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A095AB262736E19900DD0022 /* Debug */,
@@ -552,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A095AB282736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronysm" */ = {
+		A095AB282736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronyms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A095AB292736E19900DD0022 /* Debug */,
@@ -561,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A095AB2B2736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronysmTests" */ = {
+		A095AB2B2736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronymsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A095AB2C2736E19900DD0022 /* Debug */,
@@ -570,16 +554,39 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A095AB2E2736E19900DD0022 /* Build configuration list for PBXNativeTarget "anacronysmUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A095AB2F2736E19900DD0022 /* Debug */,
-				A095AB302736E19900DD0022 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A095AB45273748CD00DD0022 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		A0CBF12B273868420088AC7D /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A095AB46273748CD00DD0022 /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A095AB45273748CD00DD0022 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		A0CBF12C273868420088AC7D /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0CBF12B273868420088AC7D /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A095AAFB2736E19600DD0022 /* Project object */;
 }
